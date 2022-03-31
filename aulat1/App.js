@@ -1,12 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Image, Button, Text, View} from 'react-native';
+import { SafeAreaView } from 'react-native-web';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+   
+    <SafeAreaView>
+      <Text>Bloco de Notas</Text>
+      <Image
+     
+        source={require('./assets/favicon.png')}
+      />
+
+
+
+
+    </SafeAreaView>
+    
   );
 }
 
